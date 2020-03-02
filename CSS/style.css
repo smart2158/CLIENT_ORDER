@@ -13,6 +13,12 @@ header h1{
     color: #404040;
 }
 
+.information {
+    padding-bottom: 30px;
+    border-bottom: solid 2px #E5E5E5;
+    border-radius: 1px;
+}
+
 .information h3{
     padding:50px 0;
     font-style: normal;
@@ -21,3 +27,154 @@ header h1{
     line-height: 28px;
     color: #404040;
 }
+
+.information .place label {
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #888888;
+}
+
+.information .place p{
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    color: #000000;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.information .btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    width: 100%;
+    background-color: #ffcc00;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+.information .btn:hover{
+    color: #ffcc00;
+    background-color: #404040;
+
+}
+
+
+
+.payment{
+    padding-bottom: 50px;
+    border-bottom: solid 2px #E5E5E5;
+    border-radius: 1px;
+}
+
+.payment h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #404040;
+    padding: 50px 0;
+}
+
+.payment p{
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+.payment .btn{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    min-width: 270px;
+    background-color: #ffcc00;
+    border-radius: 5px;
+    margin-top: 12px;
+    border: none;
+}
+
+.payment .btn:hover{
+    color: #ffcc00;
+    background-color: #404040;
+}
+
+.order{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: solid 2px #E5E5E5;
+    border-radius: 1px;
+}
+
+.order img{
+    width: 30px;
+}
+
+
+.delivery h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #404040;
+    padding: 50px 0;
+}
+
+.delivery h3{
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+
+.delivery .place label {
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #888888;
+}
+
+.delivery .place p{
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    color: #000000;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.delivery .btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    width: 100%;
+    background-color: #ffcc00;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;}
+
+.delivery .btn:hover{
+    color: #ffcc00;
+    background-color: #404040;
+}
+
+
