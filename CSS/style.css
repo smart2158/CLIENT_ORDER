@@ -122,6 +122,10 @@ header h1{
 }
 
 
+.delivery{
+    padding-bottom: 50px;
+}
+
 .delivery h2{
     font-style: normal;
     font-weight: bold;
