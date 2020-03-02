@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding-top: 50px;
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: #404040;
+}
+
+.information h3{
+    padding:50px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #404040;
+}
