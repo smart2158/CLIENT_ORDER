@@ -119,8 +119,14 @@ header h1{
     border-radius: 1px;
 }
 
+
+
 .order img{
     width: 30px;
+}
+
+.order  a{ text-decoration: none;
+    color: black;
 }
 
 
@@ -183,6 +189,9 @@ header h1{
     background-color: #404040;
 }
 
+.popup{
+    width: 440px;}
+
 @media (max-width: 575px) {
     header{
         padding-top: 20px;
@@ -216,6 +225,10 @@ header h1{
     .order{
         padding: 20px  0;
     }
+
+    .popup{
+    width: 240px;}
+}
 
     .payment p{
         font-size: 18px;
