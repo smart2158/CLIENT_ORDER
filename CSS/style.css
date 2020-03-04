@@ -49,6 +49,8 @@ header h1{
     margin-bottom: 20px;
 }
 
+
+
 .information .btn {
     font-style: normal;
     font-weight: 500;
@@ -181,4 +183,41 @@ header h1{
     background-color: #404040;
 }
 
+@media (max-width: 575px) {
+    header{
+        padding-top: 20px;
+    }
 
+    .information h3{
+        padding:20px 0;
+    }
+
+    .information .place p{
+        margin-bottom: 5px;
+    }
+
+    .delivery h2{
+        padding: 20px 0;
+    }
+
+    .delivery h3{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .delivery .place p{
+        margin-bottom: 10px;
+    }
+
+    .delivery .btn{
+        margin-bottom: 30px;
+    }
+
+    .order{
+        padding: 20px  0;
+    }
+
+    .payment p{
+        font-size: 18px;
+        padding-bottom: 20px;
+}
