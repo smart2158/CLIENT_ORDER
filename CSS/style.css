@@ -40,7 +40,8 @@ header h1{
 }
 
 .dropdown-divider{
-    border-top: solid 1px  #404040;
+    border-top: solid 2px  #404040;
+    border-radius: 1px;
 }
 
 .information {
