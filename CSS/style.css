@@ -8,9 +8,39 @@ header{
 }
 
 header h1{
-    font-weight: 700;
-    font-size: 48px;
+    font-weight: 600;
+    font-size: 24px;
     color: #404040;
+}
+.btn-warning{
+    background-color: #ffcc00;
+    border: none;
+}
+.btn-warning:hover{
+    background-color: #ffcc00;
+    border: none;
+}
+
+.dropdown-menu{
+    background-color: #ffcc00;
+}
+
+.dropdown-item{
+    color: #404040;
+    ont-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: transparent;
+}
+
+.dropdown-item:hover{
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.dropdown-divider{
+    border-top: solid 1px  #404040;
 }
 
 .information {
