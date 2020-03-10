@@ -12,6 +12,10 @@ header h1{
     font-size: 24px;
     color: #404040;
 }
+.btn-group{
+    width: 160px;
+}
+
 .btn-warning{
     background-color: #ffcc00;
     border: none;
@@ -22,26 +26,34 @@ header h1{
 }
 
 .dropdown-menu{
+    text-align: center;
     background-color: #ffcc00;
+    font-size: 16px;
+    width: 100px;
 }
 
 .dropdown-item{
     color: #404040;
     ont-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px;
     background-color: transparent;
+    width: 100%;
 }
 
 .dropdown-item:hover{
     background-color: transparent;
     font-weight: 600;
+    font-size: 14px;
 }
 
 .dropdown-divider{
     border-top: solid 2px  #404040;
     border-radius: 1px;
+}
+.dropdown-menu.show{
+
 }
 
 .information {
