@@ -4,7 +4,11 @@
 }
 
 header{
-    padding-top: 50px;
+    padding-top: 10px;
+}
+
+header a img{
+    padding-bottom: 50px;
 }
 
 header h1{
@@ -113,25 +117,41 @@ header h1{
 
 
 
-.payment{
+
+
+
+
+.order{
+    padding-top: 50px;
     padding-bottom: 50px;
     border-bottom: solid 2px #E5E5E5;
     border-radius: 1px;
 }
 
-.payment h2{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    color: #404040;
-    padding: 50px 0;
+
+
+.order img{
+    width: 30px;
 }
 
-.payment p{
-    font-weight: 500;
+.order  a{ text-decoration: none;
+    color: black;
+}
+
+
+.payment_delivery .payment h2{
+    font-style: normal;
+    font-weight: bold;
     font-size: 24px;
+    color: #404040;
+    padding: 50px 0 30px;
+}
+
+.payment_delivery .payment p{
+    font-weight: 500;
+    font-size: 16px;
     color: #000000;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .payment .btn{
@@ -153,41 +173,26 @@ header h1{
     background-color: #404040;
 }
 
-.order{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-bottom: solid 2px #E5E5E5;
-    border-radius: 1px;
-}
 
-
-
-.order img{
-    width: 30px;
-}
-
-.order  a{ text-decoration: none;
-    color: black;
-}
 
 
 .delivery{
     padding-bottom: 50px;
 }
 
-.delivery h2{
+.payment_delivery .delivery h2{
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 24px;
     color: #404040;
-    padding: 50px 0;
+    padding: 50px 0 30px;
 }
 
-.delivery h3{
+.delivery p{
     font-weight: 500;
-    font-size: 24px;
+    font-size: 16px;
     color: #000000;
-    padding-bottom: 50px;
+
 }
 
 
